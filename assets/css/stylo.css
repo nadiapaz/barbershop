@@ -1,0 +1,103 @@
+
+body{
+	margin:0;
+}
+
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    	url("PlayfairDisplay-BlackItalic.woff") format("woff"),
+    	url("PlayfairDisplay-BlackItalic.otf") format("opentype");
+    
+    font-style: italic;
+    font-weight: 700;
+}
+/* Esto es barra de navegación*/
+
+	.botones{
+		color: white;
+}
+	.active{
+	color: white;
+}
+.navbar{
+	margin: 0;
+}
+.navbar ul{
+	float: right;
+	list-style: none;
+	color: white;
+	padding: 20px;
+	margin: 0px;
+	margin-top: 20px;
+	
+}
+
+.navbar ul li {
+	display: inline;
+	padding: 15px;
+	margin: 10px;
+	
+}
+/* Esto es parte del header*/
+
+h1{ 
+	position: relative;
+	margin-top:-390px;
+	color: white;
+	text-align: center;
+	font-style: italic;
+    font-family:"Playfair Display";
+    font-size: 80px;
+    font-weight: 700;
+
+}
+.header__logo{
+	width: 10%;
+	height: 10%;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.post-image{
+	width: 100%;
+	height: 50%;
+
+}
+
+/*esto es la parte blog*/
+
+.container__blog h2{
+	margin-left:15%;
+}
+
+p{
+	margin-top:20px;
+	box-sizing: border-box;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+h2{
+	margin-top:300px;
+	font-size: 20px;
+}
+.contenedor__iconos ul li{
+	list-style: none;
+	margin-left: 25%;
+
+}
+
+.contenedor__iconos ul li i {
+	color: #707070; 
+	font-size: 30px;
+	float: left;
+	margin: 5px;
+
+	
+}
+
+/* Esto es la parte del footer*/
+hr{
+
+}
+
