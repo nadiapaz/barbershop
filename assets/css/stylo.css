@@ -14,16 +14,17 @@ body{
     font-weight: 700;
 }
 /* Esto es barra de navegación*/
+.nav__logo{
+	width: 100px;
+	height: 100px;
+	margin-left: 60%;
+	margin-top: 10%;
+}
 
-	.botones{
-		color: white;
-}
-	.active{
-	color: white;
-}
 .navbar{
 	margin: 0;
 }
+
 .navbar ul{
 	float: right;
 	list-style: none;
@@ -36,11 +37,20 @@ body{
 
 .navbar ul li {
 	display: inline;
-	padding: 15px;
-	margin: 10px;
+	padding: 0px;
+	margin: 5px;
 	
 }
 /* Esto es parte del header*/
+.rou{
+text-align: center;
+}
+
+.fa-angle-double-down{
+	color: white;
+	font-size: 60px;
+
+}
 
 h1{ 
 	position: relative;
@@ -53,12 +63,7 @@ h1{
     font-weight: 700;
 
 }
-.header__logo{
-	width: 10%;
-	height: 10%;
-	margin-left: 10%;
-	margin-top: 3%;
-}
+
 .post-image{
 	width: 100%;
 	height: 50%;
@@ -72,19 +77,17 @@ h1{
 }
 
 p{
-	margin-top:20px;
 	box-sizing: border-box;
 	margin-left: 15%;
 	margin-right: 15%;
 }
 h2{
-	margin-top:300px;
+	margin-top:180px;
 	font-size: 20px;
 }
 .contenedor__iconos ul li{
 	list-style: none;
 	margin-left: 25%;
-
 }
 
 .contenedor__iconos ul li i {
@@ -95,9 +98,45 @@ h2{
 
 	
 }
+.blog__naomi{
+	border-radius: 50%;
+	margin-left: 20%;
+	margin-top:25%;
+}
+.blog__row{
+	margin-right:20%;
+	margin-top:10%; 
+	margin-left:20px;
+}
+.blog__social{
+	margin:1px;
+	margin-left: 70%;
+	margin-top:;
+	font-style: italic;
+    font-family:"Playfair Display";
+    font-size: 25px;
+    font-weight: 700;
 
+}
 /* Esto es la parte del footer*/
 hr{
 
+}
+.contenedor__usercircle{
+	color: #707070; 
+	font-size: 30px;
+	float:left;
+	margin: 5px;
+	margin-top: 20px;
+
+
+}
+.copyright{
+	background-color: black;
+}
+.footer__logo{
+	width: 9%;
+	height: 9%;
+	margin-left: 45%;
 }
 
