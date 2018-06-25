@@ -2,6 +2,7 @@
 body{
 	margin:0;
 }
+/*las fuentes*/
 
 @font-face {
     font-family:"Playfair Display";
@@ -13,6 +14,40 @@ body{
     font-style: italic;
     font-weight: 700;
 }
+
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("PlayfairDisplay-Regular.woff2") format("woff2"),
+    	url("PlayfairDisplay-Regular.woff") format("woff"),
+    	url("PlayfairDisplay-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Light.woff2") format("woff2"),
+    	url("Roboto-Light.woff") format("woff"),
+    	url("Roboto-Light.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Regular.woff2") format("woff2"),
+    	url("Roboto-Regular.woff") format("woff"),
+    	url("Roboto-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+
+
 /* Esto es barra de navegación*/
 .nav__logo{
 	width: 100px;
@@ -42,6 +77,7 @@ body{
 	
 }
 /* Esto es parte del header*/
+
 .rou{
 text-align: center;
 }
@@ -73,13 +109,18 @@ h1{
 /*esto es la parte blog*/
 
 .container__blog h2{
-	margin-left:15%;
+	margin-left:25%;
+	font-style: normal;
+    font-weight: 400;
 }
 
 p{
 	box-sizing: border-box;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 25%;
+	margin-right: 25%;
+	font-style: normal;
+    font-weight: 400;
+
 }
 h2{
 	margin-top:180px;
@@ -88,20 +129,42 @@ h2{
 .contenedor__iconos ul li{
 	list-style: none;
 	margin-left: 25%;
+	margin-top: 40px;
 }
 
 .contenedor__iconos ul li i {
 	color: #707070; 
 	font-size: 30px;
 	float: left;
-	margin: 5px;
-
-	
+	margin: 5px;	
 }
+
+.fa-user-circle{
+	color: white;
+}
+
+.contenedor__usercircle{
+	color: #707070; 
+	font-size: 30px;
+	margin: 5px;
+	margin-top: 50%;
+	display:absolute;
+}
+.blog_linea{
+	margin-top:60px;
+	height: 2px;
+
+}
+
+.responsive-image{
+	margin-top: -50px;
+	margin-left: 45%;
+}
+
 .blog__naomi{
 	border-radius: 50%;
-	margin-left: 20%;
-	margin-top:25%;
+	margin-left: 29%;
+	margin-top:0px;
 }
 .blog__row{
 	margin-right:20%;
@@ -118,25 +181,30 @@ h2{
     font-weight: 700;
 
 }
+.container{
+	background-color:#dbd9d9;
+	width: 100%;
+}
+
+.col-md-6{
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	color:#605e5e;
+	height: 65px;
+	margin-top: 17px;
+
+}
 /* Esto es la parte del footer*/
-hr{
 
-}
-.contenedor__usercircle{
-	color: #707070; 
-	font-size: 30px;
-	float:left;
-	margin: 5px;
-	margin-top: 20px;
-
-
-}
 .copyright{
 	background-color: black;
+	margin-top: -19px;
 }
 .footer__logo{
 	width: 9%;
 	height: 9%;
 	margin-left: 45%;
+
 }
 
