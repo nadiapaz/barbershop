@@ -1,1 +1,1 @@
-README.md
+https://nadiapaz.github.io/barbershop/

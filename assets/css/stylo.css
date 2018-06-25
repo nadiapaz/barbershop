@@ -79,7 +79,7 @@ body{
 /* Esto es parte del header*/
 
 .header__rou{
-text-align: center;
+	text-align: center;
 }
 
 .fa-angle-double-down{
@@ -114,9 +114,11 @@ h1{
 	font-style: normal;
     font-weight: 400;
 }
+
 span{
 	color:#D56C6A;
 }
+
 p{
 	box-sizing: border-box;
 	margin-left: 25%;
@@ -125,10 +127,12 @@ p{
     font-weight: 400;
 
 }
+
 h2{
 	margin-top:180px;
 	font-size: 20px;
 }
+
 .contenedor__iconos ul li{
 	list-style: none;
 	margin-left: 25%;
@@ -153,6 +157,7 @@ h2{
 	margin-top: 50%;
 	display:absolute;
 }
+
 .blog_linea{
 	margin-top:60px;
 	height: 2px;
@@ -169,11 +174,13 @@ h2{
 	margin-left: 29%;
 	margin-top:0px;
 }
+
 .blog__row{
 	margin-right:20%;
 	margin-top:10%; 
 	margin-left:20px;
 }
+
 .blog__social{
 	margin:1px;
 	margin-left: 70%;
@@ -183,6 +190,7 @@ h2{
     font-weight: 700;
 
 }
+
 .container{
 	background-color:#dddddd;
 	width: 100%;
@@ -205,6 +213,7 @@ h2{
 	background-color:#121619;
 	margin-top: -20px;
 }
+
 .footer__logo{
 	width: 9%;
 	height: 9%;
