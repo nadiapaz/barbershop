@@ -63,7 +63,7 @@ body{
 .navbar ul{
 	float: right;
 	list-style: none;
-	color: white;
+	color:#FFFFFF;
 	padding: 20px;
 	margin: 0px;
 	margin-top: 20px;
@@ -78,13 +78,14 @@ body{
 }
 /* Esto es parte del header*/
 
-.rou{
+.header__rou{
 text-align: center;
 }
 
 .fa-angle-double-down{
-	color: white;
+	color: #FFFFFF;
 	font-size: 60px;
+	margin-left: 30px;
 
 }
 
@@ -113,7 +114,9 @@ h1{
 	font-style: normal;
     font-weight: 400;
 }
-
+span{
+	color:#D56C6A;
+}
 p{
 	box-sizing: border-box;
 	margin-left: 25%;
@@ -174,7 +177,6 @@ h2{
 .blog__social{
 	margin:1px;
 	margin-left: 70%;
-	margin-top:;
 	font-style: italic;
     font-family:"Playfair Display";
     font-size: 25px;
@@ -182,7 +184,7 @@ h2{
 
 }
 .container{
-	background-color:#dbd9d9;
+	background-color:#dddddd;
 	width: 100%;
 }
 
@@ -190,16 +192,18 @@ h2{
 	font-size: 20px;
 	font-weight: 400;
 	text-align: center;
-	color:#605e5e;
+	color:#323333;
 	height: 65px;
 	margin-top: 17px;
+	font-style: normal;
+
 
 }
 /* Esto es la parte del footer*/
 
 .copyright{
-	background-color: black;
-	margin-top: -19px;
+	background-color:#121619;
+	margin-top: -20px;
 }
 .footer__logo{
 	width: 9%;
